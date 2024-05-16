@@ -8,6 +8,6 @@
   - name: Print Hello world
     ansible.builtin.debug:
       msg: "Hello This is devops course with aws"
-  - name: These are the coursse details #Here we call variables
+  - name: These are the course details 
     ansible.builtin.debug:
-      msg: "Course name {{COURSE}}, Trainer name {{TRAINER}}, Duration {{DURATION}}"
+      msg: "Course name {{COURSE}}, Trainer name {{TRAINER}}, Duration {{DURATION}}"    #Here we call variables
