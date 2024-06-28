@@ -1,5 +1,5 @@
 - name: ansible variable data types
-  hosts: localhosts
+  hosts: localhost
   vars:
   - AGE: 25    #this is numeric so don't have special characters
   - NAME: "pradeep"    # this is string 
