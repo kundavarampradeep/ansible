@@ -19,10 +19,10 @@
       msg: "{{NAME}}"
   - name: print boolean variable
     ansible.builtin.debug:
-    msg: "{{isDevops}}"
+      msg: "{{isDevops}}"
   - name: print list variable
     ansible.builtin.debug:
-    msg: "{{skills}}"
+      msg: "{{skills}}"
   - name: print map variable
     ansible.builtin.debug:
-    msg: "{{EXPERIENCE}}"
+      msg: "{{EXPERIENCE}}"
