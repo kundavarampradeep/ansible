@@ -1,5 +1,5 @@
 [mongodb]
-roboshop-us-dev-db-mongodb-1.weldevops.online
+172.31.90.109
 
 [mongodb:vars]
 MONGO_USERNAME=mongodbadmin
